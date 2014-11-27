@@ -49,6 +49,10 @@
     [skView presentScene:scene];
 }
 
+- (void)viewWillLayoutSubviews {
+    [super viewWillLayoutSubviews];
+    
+}
 - (BOOL)shouldAutorotate
 {
     return YES;

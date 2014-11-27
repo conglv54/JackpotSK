@@ -16,6 +16,13 @@
 		587CABFE1A27A09600C3AE97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587CABFD1A27A09600C3AE97 /* Images.xcassets */; };
 		587CAC011A27A09600C3AE97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587CABFF1A27A09600C3AE97 /* LaunchScreen.xib */; };
 		587CAC0D1A27A09600C3AE97 /* JackPotSKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CAC0C1A27A09600C3AE97 /* JackPotSKTests.m */; };
+		587CAC1C1A27A1C700C3AE97 /* bgHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC171A27A1C700C3AE97 /* bgHeader@2x.png */; };
+		587CAC1D1A27A1C700C3AE97 /* bgLevel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC181A27A1C700C3AE97 /* bgLevel@2x.png */; };
+		587CAC1E1A27A1C700C3AE97 /* bgMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC191A27A1C700C3AE97 /* bgMoney@2x.png */; };
+		587CAC1F1A27A1C700C3AE97 /* btnPayout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC1A1A27A1C700C3AE97 /* btnPayout@2x.png */; };
+		587CAC211A27A35B00C3AE97 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC201A27A35B00C3AE97 /* bg@2x.png */; };
+		587CAC231A27A43500C3AE97 /* btnShop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC221A27A43500C3AE97 /* btnShop@2x.png */; };
+		587CAC251A27A4DD00C3AE97 /* btnBuy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587CAC241A27A4DD00C3AE97 /* btnBuy@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		587CAC061A27A09600C3AE97 /* JackPotSKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackPotSKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587CAC0B1A27A09600C3AE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587CAC0C1A27A09600C3AE97 /* JackPotSKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackPotSKTests.m; sourceTree = "<group>"; };
+		587CAC171A27A1C700C3AE97 /* bgHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgHeader@2x.png"; sourceTree = "<group>"; };
+		587CAC181A27A1C700C3AE97 /* bgLevel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgLevel@2x.png"; sourceTree = "<group>"; };
+		587CAC191A27A1C700C3AE97 /* bgMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgMoney@2x.png"; sourceTree = "<group>"; };
+		587CAC1A1A27A1C700C3AE97 /* btnPayout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnPayout@2x.png"; sourceTree = "<group>"; };
+		587CAC201A27A35B00C3AE97 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		587CAC221A27A43500C3AE97 /* btnShop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnShop@2x.png"; sourceTree = "<group>"; };
+		587CAC241A27A4DD00C3AE97 /* btnBuy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBuy@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,13 @@
 				587CABF71A27A09600C3AE97 /* GameViewController.h */,
 				587CABF81A27A09600C3AE97 /* GameViewController.m */,
 				587CABFA1A27A09600C3AE97 /* Main.storyboard */,
+				587CAC201A27A35B00C3AE97 /* bg@2x.png */,
+				587CAC171A27A1C700C3AE97 /* bgHeader@2x.png */,
+				587CAC181A27A1C700C3AE97 /* bgLevel@2x.png */,
+				587CAC191A27A1C700C3AE97 /* bgMoney@2x.png */,
+				587CAC1A1A27A1C700C3AE97 /* btnPayout@2x.png */,
+				587CAC221A27A43500C3AE97 /* btnShop@2x.png */,
+				587CAC241A27A4DD00C3AE97 /* btnBuy@2x.png */,
 				587CABFD1A27A09600C3AE97 /* Images.xcassets */,
 				587CABFF1A27A09600C3AE97 /* LaunchScreen.xib */,
 				587CABEB1A27A09600C3AE97 /* Supporting Files */,
@@ -207,10 +228,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587CAC211A27A35B00C3AE97 /* bg@2x.png in Resources */,
+				587CAC1C1A27A1C700C3AE97 /* bgHeader@2x.png in Resources */,
 				587CAC011A27A09600C3AE97 /* LaunchScreen.xib in Resources */,
+				587CAC251A27A4DD00C3AE97 /* btnBuy@2x.png in Resources */,
 				587CABFE1A27A09600C3AE97 /* Images.xcassets in Resources */,
 				587CABF61A27A09600C3AE97 /* GameScene.sks in Resources */,
+				587CAC1E1A27A1C700C3AE97 /* bgMoney@2x.png in Resources */,
 				587CABFC1A27A09600C3AE97 /* Main.storyboard in Resources */,
+				587CAC231A27A43500C3AE97 /* btnShop@2x.png in Resources */,
+				587CAC1F1A27A1C700C3AE97 /* btnPayout@2x.png in Resources */,
+				587CAC1D1A27A1C700C3AE97 /* bgLevel@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JackPotSK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -364,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JackPotSK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
