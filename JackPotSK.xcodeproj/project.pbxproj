@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587CABEE1A27A09600C3AE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CABED1A27A09600C3AE97 /* main.m */; };
+		587CABF11A27A09600C3AE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CABF01A27A09600C3AE97 /* AppDelegate.m */; };
+		587CABF41A27A09600C3AE97 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CABF31A27A09600C3AE97 /* GameScene.m */; };
+		587CABF61A27A09600C3AE97 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 587CABF51A27A09600C3AE97 /* GameScene.sks */; };
+		587CABF91A27A09600C3AE97 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CABF81A27A09600C3AE97 /* GameViewController.m */; };
+		587CABFC1A27A09600C3AE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587CABFA1A27A09600C3AE97 /* Main.storyboard */; };
+		587CABFE1A27A09600C3AE97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587CABFD1A27A09600C3AE97 /* Images.xcassets */; };
+		587CAC011A27A09600C3AE97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587CABFF1A27A09600C3AE97 /* LaunchScreen.xib */; };
+		587CAC0D1A27A09600C3AE97 /* JackPotSKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587CAC0C1A27A09600C3AE97 /* JackPotSKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587CAC071A27A09600C3AE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587CABE01A27A09500C3AE97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587CABE71A27A09600C3AE97;
+			remoteInfo = JackPotSK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		587CABE81A27A09600C3AE97 /* JackPotSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackPotSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587CABEC1A27A09600C3AE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587CABED1A27A09600C3AE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587CABEF1A27A09600C3AE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587CABF01A27A09600C3AE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		587CABF21A27A09600C3AE97 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		587CABF31A27A09600C3AE97 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		587CABF51A27A09600C3AE97 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		587CABF71A27A09600C3AE97 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		587CABF81A27A09600C3AE97 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		587CABFB1A27A09600C3AE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587CABFD1A27A09600C3AE97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		587CAC001A27A09600C3AE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		587CAC061A27A09600C3AE97 /* JackPotSKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackPotSKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587CAC0B1A27A09600C3AE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587CAC0C1A27A09600C3AE97 /* JackPotSKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JackPotSKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587CABE51A27A09600C3AE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587CAC031A27A09600C3AE97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587CABDF1A27A09500C3AE97 = {
+			isa = PBXGroup;
+			children = (
+				587CABEA1A27A09600C3AE97 /* JackPotSK */,
+				587CAC091A27A09600C3AE97 /* JackPotSKTests */,
+				587CABE91A27A09600C3AE97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587CABE91A27A09600C3AE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587CABE81A27A09600C3AE97 /* JackPotSK.app */,
+				587CAC061A27A09600C3AE97 /* JackPotSKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587CABEA1A27A09600C3AE97 /* JackPotSK */ = {
+			isa = PBXGroup;
+			children = (
+				587CABEF1A27A09600C3AE97 /* AppDelegate.h */,
+				587CABF01A27A09600C3AE97 /* AppDelegate.m */,
+				587CABF21A27A09600C3AE97 /* GameScene.h */,
+				587CABF31A27A09600C3AE97 /* GameScene.m */,
+				587CABF51A27A09600C3AE97 /* GameScene.sks */,
+				587CABF71A27A09600C3AE97 /* GameViewController.h */,
+				587CABF81A27A09600C3AE97 /* GameViewController.m */,
+				587CABFA1A27A09600C3AE97 /* Main.storyboard */,
+				587CABFD1A27A09600C3AE97 /* Images.xcassets */,
+				587CABFF1A27A09600C3AE97 /* LaunchScreen.xib */,
+				587CABEB1A27A09600C3AE97 /* Supporting Files */,
+			);
+			path = JackPotSK;
+			sourceTree = "<group>";
+		};
+		587CABEB1A27A09600C3AE97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587CABEC1A27A09600C3AE97 /* Info.plist */,
+				587CABED1A27A09600C3AE97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587CAC091A27A09600C3AE97 /* JackPotSKTests */ = {
+			isa = PBXGroup;
+			children = (
+				587CAC0C1A27A09600C3AE97 /* JackPotSKTests.m */,
+				587CAC0A1A27A09600C3AE97 /* Supporting Files */,
+			);
+			path = JackPotSKTests;
+			sourceTree = "<group>";
+		};
+		587CAC0A1A27A09600C3AE97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587CAC0B1A27A09600C3AE97 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587CABE71A27A09600C3AE97 /* JackPotSK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587CAC101A27A09600C3AE97 /* Build configuration list for PBXNativeTarget "JackPotSK" */;
+			buildPhases = (
+				587CABE41A27A09600C3AE97 /* Sources */,
+				587CABE51A27A09600C3AE97 /* Frameworks */,
+				587CABE61A27A09600C3AE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackPotSK;
+			productName = JackPotSK;
+			productReference = 587CABE81A27A09600C3AE97 /* JackPotSK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587CAC051A27A09600C3AE97 /* JackPotSKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587CAC131A27A09600C3AE97 /* Build configuration list for PBXNativeTarget "JackPotSKTests" */;
+			buildPhases = (
+				587CAC021A27A09600C3AE97 /* Sources */,
+				587CAC031A27A09600C3AE97 /* Frameworks */,
+				587CAC041A27A09600C3AE97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587CAC081A27A09600C3AE97 /* PBXTargetDependency */,
+			);
+			name = JackPotSKTests;
+			productName = JackPotSKTests;
+			productReference = 587CAC061A27A09600C3AE97 /* JackPotSKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587CABE01A27A09500C3AE97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lê Công";
+				TargetAttributes = {
+					587CABE71A27A09600C3AE97 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					587CAC051A27A09600C3AE97 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 587CABE71A27A09600C3AE97;
+					};
+				};
+			};
+			buildConfigurationList = 587CABE31A27A09500C3AE97 /* Build configuration list for PBXProject "JackPotSK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587CABDF1A27A09500C3AE97;
+			productRefGroup = 587CABE91A27A09600C3AE97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587CABE71A27A09600C3AE97 /* JackPotSK */,
+				587CAC051A27A09600C3AE97 /* JackPotSKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587CABE61A27A09600C3AE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CAC011A27A09600C3AE97 /* LaunchScreen.xib in Resources */,
+				587CABFE1A27A09600C3AE97 /* Images.xcassets in Resources */,
+				587CABF61A27A09600C3AE97 /* GameScene.sks in Resources */,
+				587CABFC1A27A09600C3AE97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587CAC041A27A09600C3AE97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587CABE41A27A09600C3AE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CABF91A27A09600C3AE97 /* GameViewController.m in Sources */,
+				587CABF11A27A09600C3AE97 /* AppDelegate.m in Sources */,
+				587CABF41A27A09600C3AE97 /* GameScene.m in Sources */,
+				587CABEE1A27A09600C3AE97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587CAC021A27A09600C3AE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CAC0D1A27A09600C3AE97 /* JackPotSKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587CAC081A27A09600C3AE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587CABE71A27A09600C3AE97 /* JackPotSK */;
+			targetProxy = 587CAC071A27A09600C3AE97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587CABFA1A27A09600C3AE97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587CABFB1A27A09600C3AE97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		587CABFF1A27A09600C3AE97 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587CAC001A27A09600C3AE97 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587CAC0E1A27A09600C3AE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		587CAC0F1A27A09600C3AE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587CAC111A27A09600C3AE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JackPotSK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		587CAC121A27A09600C3AE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JackPotSK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		587CAC141A27A09600C3AE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JackPotSKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackPotSK.app/JackPotSK";
+			};
+			name = Debug;
+		};
+		587CAC151A27A09600C3AE97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JackPotSKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackPotSK.app/JackPotSK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587CABE31A27A09500C3AE97 /* Build configuration list for PBXProject "JackPotSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587CAC0E1A27A09600C3AE97 /* Debug */,
+				587CAC0F1A27A09600C3AE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587CAC101A27A09600C3AE97 /* Build configuration list for PBXNativeTarget "JackPotSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587CAC111A27A09600C3AE97 /* Debug */,
+				587CAC121A27A09600C3AE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		587CAC131A27A09600C3AE97 /* Build configuration list for PBXNativeTarget "JackPotSKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587CAC141A27A09600C3AE97 /* Debug */,
+				587CAC151A27A09600C3AE97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587CABE01A27A09500C3AE97 /* Project object */;
+}
